@@ -1,26 +1,30 @@
 {
-  "name": "chattt-backend",
-  "version": "0.0.1",
-  "description": "Chattt's backend server",
-  "main": "server.js",
+  "name": "chattt",
+  "version": "0.2.0",
+  "description": "Chattt",
+  "main": "index.js",
+  "bin": {
+    "chattt": "./index.js"
+  },
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.16.2",
-    "socket.io": "^2.0.4"
-  },
-  "engines": {
-    "node": "9.x"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "url": "git+https://github.com/aviaryan/chattt-backend.git"
+    "type": "git",
+    "url": "git+https://github.com/aviaryan/chattt.git"
   },
-  "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express",
-    "chattt"
-  ]
+    "chat", "socket", "socketio"
+  ],
+  "author": "Avi Aryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviaryan/chattt/issues"
+  },
+  "homepage": "https://github.com/aviaryan/chattt#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "socket.io-client": "^2.0.4"
+  }
 }
