@@ -1,24 +1,3 @@
-<p align="center">
- <img src="https://user-images.githubusercontent.com/4047597/36716307-e6c24506-1bbf-11e8-8bfe-cc151874f332.png" width="128px">
-</p>
-
-<h1 align="center">
-	❯❯❯ Chattt
-</h1>
-
-<p align="center">
-Chat without leaving your terminal.
-</p>
-
-<p align="center">
-<a href="https://www.npmjs.com/package/chattt"><img src="https://img.shields.io/npm/v/chattt.svg"></a>
-<a href="https://www.npmjs.com/package/chattt"><img src="https://img.shields.io/npm/dm/chattt.svg"></a>
-<a href="https://www.npmjs.com/package/chattt"><img src="https://img.shields.io/npm/l/chattt.svg"></a>
-</p>
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/4047597/36725003-e922a082-1bda-11e8-9b08-2537a8a05529.gif">
-</p>
 
 
 ## Using
@@ -32,7 +11,6 @@ Chat without leaving your terminal.
 
 ## Why build this?
 
-Well, I would say, the strongest reason why I build this is because I wanted to play with [socket.io](https://socket.io/) and a [cool terminal interface library](https://github.com/chjj/blessed).
 A chat system was one of the ways to realize this and hence I went ahead with it.
 It has no advantages over IRC or some other chat system that you are used to, but it might come handy for quick chatting (from terminal) with zero entry-level knowledge required (no need to memorize IRC commands for example). 🍰✨
 
